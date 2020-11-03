@@ -32,12 +32,29 @@ div.main{
 	background-color: #ffffff;
 }
 
+div.success {
+    background-color: #c2d8ed;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #052544;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 div.warning{
 	background-color: #e5b7b7;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+
+div.column{
+    padding: 40px;
+    float: left;
+    
 }
 
 
@@ -73,6 +90,11 @@ h1 {
 h1.white
 {
 	color: #ffffff;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
 }
 
 
